@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="known_Students">
+        <item>John Smith - Fall 2122 - SC 1011 - A</item>
+        <item>John Smith - Fall 2122 - SC 1021 - A</item>
+        <item>John Smith - Fall 2122 - SC 2852 - A</item>
+        <item>John Smith - Winter 2122 - SC 1011 - B</item>
+        <item>John Smith - Winter 2122 - SC 1021 - C</item>
+        <item>John Smith - Winter 2122 - SC 2852 - B</item>
+
+        <item>Joan Jones - Winter 2122 - SWE 2811 - B</item>
+        <item>Joan Jones - Winter 2122 - SWE 2832 - B</item>
+        <item>Joan Jones - Spring 2122 - SWE 2840 - C</item>
+        <item>Joan Jones - Spring 2122 - SWE 3010 - A</item>
+        <item>Joan Jones - Spring 2122 - SWE 3020 - A</item>
+        <item>Joan Jones - Spring 2122 - SWE 3030 - B</item>
+
+        <item>Michael Davis - Spring 2223 - SWE 3821 - D</item>
+        <item>Michael Davis - Spring 2223 - SWE 3830 - B</item>
+        <item>Michael Davis - Fall 2324 - SWE 3910 - A</item>
+        <item>Michael Davis - Fall 2324 - SWE 4910 - C</item>
+
+        <item>Mary Williams - Fall 2122 - SWE 2811 - B</item>
+        <item>Mary Williams - Fall 2122 - SWE 2832 - B</item>
+        <item>Mary Williams - Winter 2122 - SWE 2840 - C</item>
+        <item>Mary Williams - Winter 2122 - SWE 3010 - A</item>
+        <item>Mary Williams - Spring 2122 - SWE 3020 - A</item>
+        <item>Mary Williams - Spring 2122 - SWE 3030 - B</item>
+
+        <item>Charles Martinez - Winter 2223 - SWE 3821 - D</item>
+        <item>Charles Martinez - Spring 2223 - SWE 3830 - B</item>
+        <item>Charles Martinez - Fall 2324 - SWE 3910 - A</item>
+        <item>Charles Martinez - Fall 2324 - SWE 4910 - C</item>
+
+        <item>Linda Wilson - Spring 2122 - CSC 4881 - B</item>
+        <item>Linda Wilson - Spring 2122 - CSC 4920 - B</item>
+
+        <item>Thomas Anderson - Fall 2122 - CSC 3210 - C</item>
+        <item>Thomas Anderson - Fall 2122 - CSC 3840 - D</item>
+
+        <item>Sarah Rodriguez - Winter 2122 - CSC 421 - A</item>
+        <item>Sarah Rodriguez - Winter 2122 - CSC 493 - A</item>
+
+        <item>David Adams - Fall 2324 - SWE 3020 - C</item>
+        <item>David Adams - Fall 2324 - SWE 3030 - B</item>
+
+        <item>Lisa Lopez - Winter 2223 - CSC 2910 - A</item>
+        <item>Lisa Lopez - Winter 2223 - CSC 2911 - B</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="change_picture">Change Picture!</string>
+    <string name="click_for_a_message">Click for a Message!</string>
+    <string name="pictures_of_zion_national_park">Pictures of Zion National Park</string>
+    <string name="snack_bar_message">Snack Bar Message Created!</string>
+    <string name="fab_description">FAB to edit the textview</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutCompat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        tools:layout_conversion_absoluteHeight="32dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="146dp" />
+
+    <EditText
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="32dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="379dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        tools:layout_conversion_absoluteHeight="32dp"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="76dp" />
+
+    <EditText
+        android:id="@+id/course_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="110dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="379dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        tools:layout_conversion_absoluteHeight="32dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="63dp" />
+
+    <EditText
+        android:id="@+id/course_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="379dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/courseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xx/xx/xxxx" />
+
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modify Date" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

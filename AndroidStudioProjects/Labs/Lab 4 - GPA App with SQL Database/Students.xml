@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="known_Students">
+        <item>John Smith - Fall 2122</item>
+        <item>Joan Jones - Winter 2122</item>
+        <item>Michael Davis - Spring 2223</item>
+        <item>Mary Williams - Fall 2122</item>
+        <item>Charles Martinez - Winter 2223</item>
+        <item>Linda Wilson - Spring 2122</item>
+        <item>Thomas Anderson - Fall 2122</item>
+        <item>Sarah Rodriguez - Winter 2122</item>
+        <item>David Adams - Fall 2324</item>
+        <item>Lisa Lopez - Winter 2223</item>
+    </string-array>
+</resources>

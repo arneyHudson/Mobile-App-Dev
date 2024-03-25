@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="known_terms">
+        <item>Fall 2122 - 9/1/2021</item>
+        <item>Winter 2122 - 12/1/2021</item>
+        <item>Spring 2122 - 2/1/2022</item>
+        <item>Fall 2223 - 9/1/2022</item>
+        <item>Winter 2223 - 12/1/2022</item>
+        <item>Spring 2223 - 2/1/2023</item>
+        <item>Fall 2324 - 9/1/2023</item>
+        <item>Spring 2324 - 1/1/2024</item>
+    </string-array>
+</resources>

@@ -1,0 +1,824 @@
+<resources>
+    <string name="app_name">Lab 4 - Persistence</string>
+    <string name="course_name">Course Name:</string>
+    <string name="credits">Credits:</string>
+    <string name="grade">Grade:</string>
+    <string name="add_course">Add Course</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="gpa_result">GPA Result:</string>
+    <string name="gpa_calculator"><u>GPA CALCULATOR</u></string>
+
+    <string-array name="msoe_courses_array">
+        <item>ACS 1130 - Introduction to Actuarial Science</item>
+        <item>ACS 1530 - Financial Mathematics I</item>
+        <item>ACS 1540 - Financial Mathematics II</item>
+        <item>ACS 2740 - Risk Management and Insurance</item>
+        <item>ACS 3410 - Linear Regression and Time Series</item>
+        <item>ACS 3420 - Linear Models and Predictive Analytics</item>
+        <item>ACS 3530 - Fundamentals of Actuarial Mathematics I</item>
+        <item>ACS 3540 - Fundamentals of Actuarial Mathematics II</item>
+        <item>ACS 3740 - Introduction to Asset Pricing</item>
+        <item>ACS 4410 - Advanced Predictive Analytics</item>
+        <item>ACS 4530 - Actuarial Life Contingency Models</item>
+        <item>ACS 4630 - Actuarial Probability Models I</item>
+        <item>ACS 4640 - Actuarial Probability Models II</item>
+        <item>ACS 4740 - Quantitative Risk Management</item>
+        <item>ACS 4901 - Actuarial Science Senior Capstone Project</item>
+        <item>ACS 4980 - Topics in Actuarial Science</item>
+        <item>ACS 4999 - Actuarial Science Independent Study</item>
+        <item>AIR 1011 - United States Air Force Heritage and Values I</item>
+        <item>AIR 1012 - United States Air Force Heritage and Values II</item>
+        <item>AIR 1051 - Leadership Laboratory</item>
+        <item>AIR 2021 - Team and Leadership Fundamentals I</item>
+        <item>AIR 2022 - Team and Leadership Fundamentals II</item>
+        <item>AIR 2964 - Air Force Field Training</item>
+        <item>AIR 3131 - Leading People and Effective Communication I</item>
+        <item>AIR 3132 - Leading People and Effective Communication II</item>
+        <item>AIR 4141 - National Security Affairs/Preparation for Active Duty I</item>
+        <item>AIR 4142 - National Security Affairs/Preparation for Active Duty II</item>
+        <item>AIR 4995 - Independent Study in Air Force and Aerospace Studies</item>
+        <item>ANT 1001 - Cultural Anthropology</item>
+        <item>ANT 2010 - Culture and Health in Central America</item>
+        <item>ANT 2012 - Urban Agriculture: Past, Present, Future</item>
+        <item>ANT 2020 - Native American Culture</item>
+        <item>ANT 2980 - Topics in Anthropology</item>
+        <item>ANT 2999 - Anthropology Independent Study</item>
+        <item>ANT 3980 - Topics in Anthropology</item>
+        <item>ANT 3999 - Anthropology Independent Study</item>
+        <item>ANT 4980 - Topics in Anthropology</item>
+        <item>ANT 4999 - Anthropology Independent Study</item>
+        <item>ARE 2111 - Fundamentals of Electricity and Circuits</item>
+        <item>ARE 2851 - Architectural Graphics</item>
+        <item>ARE 2852 - Building Information Modeling</item>
+        <item>ARE 2980 - Topics in Architectural Engineering</item>
+        <item>ARE 3101 - Principles of Electrical Engineering for Buildings</item>
+        <item>ARE 3121 - Design of Communication and Life Safety Systems</item>
+        <item>ARE 3151 - Design of Lighting Systems</item>
+        <item>ARE 3161 - Design of Power Systems</item>
+        <item>ARE 3401 - Principles of Mechanical Engineering for Buildings</item>
+        <item>ARE 3441 - Design of Fire Protection and Life Safety Systems</item>
+        <item>ARE 3451 - Design of Mechanical Systems</item>
+        <item>ARE 3461 - Design of Plumbing Systems</item>
+        <item>ARE 3821 - Architectural History</item>
+        <item>ARE 3980 - Topics in Architectural Engineering</item>
+        <item>ARE 4321 - Soil Mechanics and Foundations</item>
+        <item>ARE 4901 - Architectural Engineering Capstone I</item>
+        <item>ARE 4902 - Architectural Engineering Capstone II</item>
+        <item>ARE 4980 - Topics in Architectural Engineering</item>
+        <item>ARE 4999 - Architectural Engineering Independent Study</item>
+        <item>ARM 1001 - Military Physical Training Laboratory 1</item>
+        <item>ARM 1002 - Military Physical Training Laboratory 2</item>
+        <item>ARM 1100 - Foundations of Officership</item>
+        <item>ARM 1200 - Basic Leadership</item>
+        <item>ARM 1800 - American Crucible: The Military and the Development of the United States</item>
+        <item>ARM 2001 - Military Physical Training Laboratory 3</item>
+        <item>ARM 2002 - Military Physical Training Laboratory 4</item>
+        <item>ARM 2100 - Individual Leadership Studies</item>
+        <item>ARM 2200 - Leadership and Teamwork</item>
+        <item>ARM 3001 - Military Physical Training Laboratory 5</item>
+        <item>ARM 3002 - Military Physical Training Laboratory 6</item>
+        <item>ARM 3100 - Leadership and Problem Solving</item>
+        <item>ARM 3101 - Applied Leadership Laboratory I</item>
+        <item>ARM 3200 - Leadership and Ethics</item>
+        <item>ARM 3202 - Applied Leadership Laboratory II</item>
+        <item>ARM 3964 - Military Science Practicum</item>
+        <item>ARM 4001 - Military Physical Training Laboratory 7</item>
+        <item>ARM 4002 - Military Physical Training Laboratory 8</item>
+        <item>ARM 4100 - Officership</item>
+        <item>ARM 4101 - Advanced Leadership Laboratory I</item>
+        <item>ARM 4200 - Leadership and Management</item>
+        <item>ARM 4202 - Advanced Leadership Laboratory II</item>
+        <item>ARM 4964 - Command Group Leadership</item>
+        <item>ARM 4995 - Independent Study in Military Science and Leadership</item>
+        <item>AHT 2001 - Western Art History</item>
+        <item>AHT 2002 - German Art History</item>
+        <item>AHT 2980 - Topics in Art History</item>
+        <item>AHT 2999 - Art History Independent Study</item>
+        <item>AHT 3980 - Topics in Art History</item>
+        <item>AHT 3999 - Art History Independent Study</item>
+        <item>AHT 4980 - Topics in Art History</item>
+        <item>AHT 4999 - Art History Independent Study</item>
+        <item>BIO 1110 - Cell Biology and Genetics</item>
+        <item>BIO 1410 - Human Anatomy &amp; Physiology I</item>
+        <item>BIO 1420 - Human Anatomy &amp; Physiology II</item>
+        <item>BIO 2310 - Clinical Microbiology</item>
+        <item>BIO 2320 - Cellular Microbiology</item>
+        <item>BIO 2510 - Human Physiology I</item>
+        <item>BIO 2520 - Human Physiology II</item>
+        <item>BIO 4980 - Topics in Biology</item>
+        <item>BIO 4999 - Biology Independent Study</item>
+        <item>BME 1010 - Introduction to Biomedical Engineering</item>
+        <item>BME 2310 - Embedded Systems for Biomedical Engineers</item>
+        <item>BME 2961 - Introduction to Human Body Systems for Radiological Applications</item>
+        <item>BME 2963 - Fundamentals of Medical Imaging and Imaging AI</item>
+        <item>BME 3010 - Medical Device Regulation and Standards</item>
+        <item>BME 3210 - Medical Imaging Systems</item>
+        <item>BME 3310 - Sensors, Actuators, and Interfaces</item>
+        <item>BME 3410 - Biomechanics</item>
+        <item>BME 3510 - Biotransport Phenomena</item>
+        <item>BME 3610 - Biomaterials</item>
+        <item>BME 3710 - Biomedical Instrumentation I</item>
+        <item>BME 3980T - Topics in Biomedical Engineering: Integrated BME Lab Topics</item>
+        <item>BME 4110 - Control Systems for Biomedical Applications</item>
+        <item>BME 4410 - Advanced Biomechanics</item>
+        <item>BME 4710 - Biomedical Instrumentation II</item>
+        <item>BME 4801 - Clinical Engineering Internship</item>
+        <item>BME 4802 - Biomedical Engineering Research Internship</item>
+        <item>BME 4901 - Biomedical Engineering Senior Design I</item>
+        <item>BME 4902 - Biomedical Engineering Senior Design II</item>
+        <item>BME 4910 - Lasers: Medical Applications</item>
+        <item>BME 4980 - Topics in Biomedical Engineering</item>
+        <item>BME 4980T - Topics in Biomedical Engineering: Medical Device Standards and Regulations</item>
+        <item>BME 4981 - Topics in Biomedical Engineering with Lab</item>
+        <item>BME 4999 - Biomedical Engineering Independent Study</item>
+        <item>BUS 1850 - Information and Operations Technology</item>
+        <item>BUS 2010 - Business Analysis and Data Storytelling</item>
+        <item>BUS 2100 - Organizational Management</item>
+        <item>BUS 2221 - Microeconomics</item>
+        <item>BUS 2222 - Macroeconomics</item>
+        <item>BUS 2225 - Health Care Economics</item>
+        <item>BUS 2330 - Business Law</item>
+        <item>BUS 2411 - Building Inclusive Teams</item>
+        <item>BUS 2445 - Global Business</item>
+        <item>BUS 2450 - Business Operations</item>
+        <item>BUS 2510 - Principles of Financial Accounting</item>
+        <item>BUS 2530 - Introduction to Finance</item>
+        <item>BUS 2660 - Marketing</item>
+        <item>BUS 2710 - Database Management</item>
+        <item>BUS 2730 - Business Programming I</item>
+        <item>BUS 2900 - Character in the Business Professions</item>
+        <item>BUS 3010 - Business Analytics</item>
+        <item>BUS 3200 - Principles of Economics and Financial Decision-Making</item>
+        <item>BUS 3400 - Project Management</item>
+        <item>BUS 3420 - Innovation and Entrepreneurship</item>
+        <item>BUS 3445 - Leadership Communication</item>
+        <item>BUS 3560 - Managerial Cost Accounting</item>
+        <item>BUS 3580 - Intermediate Accounting I</item>
+        <item>BUS 3585 - Intermediate Accounting II</item>
+        <item>BUS 3593 - Intermediate Finance and Portfolio Theory</item>
+        <item>BUS 3600 - Advanced Financial Analysis</item>
+        <item>BUS 3650 - Branding and Brand Management</item>
+        <item>BUS 3670 - Marketing Research</item>
+        <item>BUS 3740 - Emerging Technology</item>
+        <item>BUS 3790 - Web Design I</item>
+        <item>BUS 3795 - Web Design II</item>
+        <item>BUS 3800 - Continuous Improvement</item>
+        <item>BUS 3805 - Lean-Six Sigma Techniques</item>
+        <item>BUS 3820 - Planning, Scheduling, and Control</item>
+        <item>BUS 3850 - Topics in Artificial Intelligence</item>
+        <item>BUS 3890 - Supply Chain Management</item>
+        <item>BUS 4310 - Legal Aspects of Innovation and Entrepreneurship</item>
+        <item>BUS 4320 - Business Startups for Entrepreneurs</item>
+        <item>BUS 4340 - Cultivating Your Entrepreneurial Mindset</item>
+        <item>BUS 4490 - Human Resources</item>
+        <item>BUS 4500 - Management Control Systems and Advanced Managerial Accounting</item>
+        <item>BUS 4510 - Tax Planning and Research</item>
+        <item>BUS 4530 - Personal Financial Planning</item>
+        <item>BUS 4550 - Auditing and Advanced Accounting</item>
+        <item>BUS 4560 - Accounting Ethics</item>
+        <item>BUS 4570 - Accounting Information Systems</item>
+        <item>BUS 4575 - Accounting Analytics and Artificial Intelligence</item>
+        <item>BUS 4620 - Technical Selling</item>
+        <item>BUS 4630 - Sales Process and Pipeline</item>
+        <item>BUS 4640 - Sales Networking and Prospecting</item>
+        <item>BUS 4660 - Digital Marketing</item>
+        <item>BUS 4680 - Advertising and Promotion Strategies</item>
+        <item>BUS 4690 - Consumer Behavior</item>
+        <item>BUS 4801 - Business Internship</item>
+        <item>BUS 4802 - Internship/Practicum</item>
+        <item>BUS 4820 - Enterprise Resource Planning</item>
+        <item>BUS 4900 - Forecasting and Strategy</item>
+        <item>BUS 4901 - Business Capstone</item>
+        <item>BUS 4950 - German Colloquium</item>
+        <item>BUS 4980 - Topics in Business</item>
+        <item>BUS 4999 - Business Independent Study</item>
+        <item>BIE 1000 - Introduction to Chemical and Biomolecular Engineering</item>
+        <item>BIE 2010 - Sophomore Seminar</item>
+        <item>BIE 2100 - Principles and Applications of Biotechnology</item>
+        <item>BIE 2300 - Informatics Computing</item>
+        <item>BIE 2410 - Thermodynamics I</item>
+        <item>BIE 2510 - Transport Phenomena I</item>
+        <item>BIE 3100 - Cell Culture and Tissue Engineering</item>
+        <item>BIE 3200 - Biopolymer and Nanomaterial Engineering</item>
+        <item>BIE 3300 - Bioinformatics</item>
+        <item>BIE 3400 - Kinetics and Bioreactor Design</item>
+        <item>BIE 3420 - Thermodynamics II</item>
+        <item>BIE 3500 - Unit Operations</item>
+        <item>BIE 3520 - Transport Phenomena II</item>
+        <item>BIE 3991 - Co-op Experience I</item>
+        <item>BIE 3992 - Co-op Experience II</item>
+        <item>BIE 4020 - Senior Seminar</item>
+        <item>BIE 4100 - Synthetic Biology and Metabolic Engineering</item>
+        <item>BIE 4200 - Engineering Controlled Drug Delivery and Nanomedicine</item>
+        <item>BIE 4500 - Process Engineering Lab</item>
+        <item>BIE 4600 - Bio Process Control</item>
+        <item>BIE 4901 - Chemical and Biomolecular Engineering Senior Design I</item>
+        <item>BIE 4902 - Chemical and Biomolecular Engineering Senior Design II</item>
+        <item>BIE 4980 - Topics in Chemical and Biomolecular Engineering</item>
+        <item>BIE 4991 - Co-op Experience III</item>
+        <item>BIE 4992 - Co-op Experience IV</item>
+        <item>BIE 4999 - Chemical and Biomolecular Engineering Independent Study</item>
+        <item>CHM 1010 - Chemistry I</item>
+        <item>CHM 1010A - Chemistry I</item>
+        <item>CHM 1020 - Chemistry II</item>
+        <item>CHM 1050 - Chemistry for Life Sciences I</item>
+        <item>CHM 1250 - Chemistry for Life Sciences II</item>
+        <item>CHM 1310 - Chemistry of Food Molecules</item>
+        <item>CHM 2210 - Organic Chemistry I</item>
+        <item>CHM 2220 - Organic Chemistry II</item>
+        <item>CHM 2225 - Organic Chemistry II Laboratory</item>
+        <item>CHM 2310 - Biochemistry</item>
+        <item>CHM 2980T - Topics in Chemistry: Quarter Chemistry III</item>
+        <item>CHM 3510 - Advanced Analytical Chemistry</item>
+        <item>CHM 3650 - Environmental Chemistry</item>
+        <item>CHM 3710 - Polymer Chemistry</item>
+        <item>CHM 3850 - Food Chemistry</item>
+        <item>CHM 4980 - Topics in Chemistry</item>
+        <item>CHM 4999 - Chemistry Independent Study</item>
+        <item>CAE 1001 - Professional Growth I</item>
+        <item>CAE 1811 – 1st Year Design</item>
+        <item>CAE 1851 - Introduction to CAECM Graphics</item>
+        <item>CAE 1871 - Materials and Methods</item>
+        <item>CAE 1872 - Materials and Methods Laboratory</item>
+        <item>CAE 2001 - Professional Growth II</item>
+        <item>CAE 2411 - Thermal Sciences</item>
+        <item>CAE 2511 - Statics</item>
+        <item>CAE 2512 - Mechanics of Materials</item>
+        <item>CAE 2711 - Fluid Mechanics</item>
+        <item>CAE 2980T - Topics in Civil and Architectural Engineering: Building Construction Methods Transition</item>
+        <item>CAE 3001 - Professional Growth III</item>
+        <item>CAE 3501 - Principles of Structural Engineering</item>
+        <item>CAE 3511 - Analysis of Structures</item>
+        <item>CAE 3521 - Design of Reinforced Concrete Structures</item>
+        <item>CAE 3561 - Design of Steel Structures</item>
+        <item>CAE 3861 - Specifications and the Project Manual</item>
+        <item>CAE 3891 - Introduction to Disaster Relief and Global Sustainable Development</item>
+        <item>CAE 3980 - Topics in Civil and Architectural Engineering</item>
+        <item>CAE 3991 - Co-op Experience I</item>
+        <item>CAE 3992 - Co-op Experience II</item>
+        <item>CAE 4811 - Real Estate Development Economics</item>
+        <item>CAE 4861 - Construction Law and Contracts</item>
+        <item>CAE 4881 - Sustainability and Resilience</item>
+        <item>CAE 4901 - Architectural Engineering and Construction Management Capstone I</item>
+        <item>CAE 4902 - Architectural Engineering and Construction Management Capstone II</item>
+        <item>CAE 4980 - Topics in Civil and Architectural Engineering</item>
+        <item>CAE 4991 - Co-op Experience III</item>
+        <item>CAE 4992 - Co-op Experience IV</item>
+        <item>CAE 4999 - Civil and Architectural Engineering Independent Study</item>
+        <item>CVE 2851 - Introduction to Civil 3D</item>
+        <item>CVE 2852 - Introduction to Geographic Information Systems (GIS)</item>
+        <item>CVE 2980 - Topics in Civil Engineering</item>
+        <item>CVE 3201 - Principles of Environmental Engineering</item>
+        <item>CVE 3251 - Design of Municipal Potable Water and Wastewater Treatment Plants</item>
+        <item>CVE 3301 - Principles of Soils and Geotechnical Engineering</item>
+        <item>CVE 3601 - Principles of Transportation Engineering</item>
+        <item>CVE 3611 - Traffic Engineering</item>
+        <item>CVE 3661 - Geometric Design of Roadways</item>
+        <item>CVE 3701 - Principles of Water Resources Engineering</item>
+        <item>CVE 3721 - Analysis and Design of Potable Water Distribution Systems and Wastewater Collection Systems</item>
+        <item>CVE 3741 - Design of Stormwater Management Systems</item>
+        <item>CVE 3811 - Principles of Site Development</item>
+        <item>CVE 3980 - Topics in Civil Engineering</item>
+        <item>CVE 4901 - Civil Engineering Capstone I</item>
+        <item>CVE 4902 - Civil Engineering Capstone II</item>
+        <item>CVE 4980 - Topics in Civil Engineering</item>
+        <item>CVE 4999 - Civil Engineering Independent Study</item>
+        <item>COM 1001 - College Writing</item>
+        <item>COM 2001 - Writing for the STEM Disciplines</item>
+        <item>COM 2980 - Topics in Communication</item>
+        <item>COM 2999 - Communication Independent Study</item>
+        <item>COM 3001 - Professional Presentations</item>
+        <item>COM 3980 - Topics in Communication</item>
+        <item>COM 3999 - Communication Independent Study</item>
+        <item>COM 4980 - Topics in Communication</item>
+        <item>COM 4999 - Communication Independent Study</item>
+        <item>CPE 1500 - Digital Logic</item>
+        <item>CPE 1510 - Computer Architecture and Assembly Language</item>
+        <item>CPE 2600 - Systems Programming</item>
+        <item>CPE 2610 - Embedded Systems</item>
+        <item>CPE 3300 - Computer Networking</item>
+        <item>CPE 3600 - Advanced Embedded Systems</item>
+        <item>CPE 4510 - Superscalar, Multicore, and Multiprocessor Architecture</item>
+        <item>CPE 4520 - Memory System and I/O System Architecture</item>
+        <item>CPE 4610 - Embedded Systems Fabrication</item>
+        <item>CPE 4800 - Information Security</item>
+        <item>CPE 4901 - Computer Engineering Senior Design Project I</item>
+        <item>CPE 4902 - Computer Engineering Senior Design Project II</item>
+        <item>CPE 4980 - Topics in Computer Engineering</item>
+        <item>CPE 4981 - Topics in Computer Engineering with Lab</item>
+        <item>CPE 4999 - Computer Engineering Independent Study</item>
+        <item>CSC 1110 - Software Development</item>
+        <item>CSC 1110A - Software Development</item>
+        <item>CSC 1120 - Data Structures and Graphical Interfaces</item>
+        <item>CSC 1120A - Data Structures and Graphical Interfaces</item>
+        <item>CSC 1310 - Introduction to Programming with Python</item>
+        <item>CSC 2210 - Procedural and Object-Oriented C++</item>
+        <item>CSC 2611 - AI Tools</item>
+        <item>CSC 2621 - Data Science</item>
+        <item>CSC 2661 - Python for AI</item>
+        <item>CSC 2663 - Machine Learning Techniques</item>
+        <item>CSC 2980 - Topics in Computer Science</item>
+        <item>CSC 2981 - Topics in Computer Science with Lab</item>
+        <item>CSC 3210 - Operating Systems</item>
+        <item>CSC 3310 - Algorithms and Advanced Data Structures</item>
+        <item>CSC 3320 - Databases</item>
+        <item>CSC 3511 - Security and Networking</item>
+        <item>CSC 4201 - Microservices and Cloud Computing</item>
+        <item>CSC 4241 - GPU Programming</item>
+        <item>CSC 4243 - Compiler Construction</item>
+        <item>CSC 4341 - Competitive Programming</item>
+        <item>CSC 4601 - Theory of Machine Learning</item>
+        <item>CSC 4611 - Deep Learning</item>
+        <item>CSC 4631 - Artificial Intelligence</item>
+        <item>CSC 4641 - Natural Language Processing</item>
+        <item>CSC 4651 - Deep Learning in Signal Processing</item>
+        <item>CSC 4801 - Data Science Practicum</item>
+        <item>CSC 4901 - Computer Science Capstone I</item>
+        <item>CSC 4902 - Computer Science Capstone II</item>
+        <item>CSC 4911 - Mobile Application Development</item>
+        <item>CSC 4941 - Robotics</item>
+        <item>CSC 4980 - Topics in Computer Science</item>
+        <item>CSC 4981 - Topics in Computer Science with Lab</item>
+        <item>CSC 4999 - Computer Science Independent Study</item>
+        <item>CON 2001 - Introduction to Construction Management</item>
+        <item>CON 2011 - Surveying</item>
+        <item>CON 2071 - Construction Safety</item>
+        <item>CON 2980 - Topics in Construction Management</item>
+        <item>CON 3001 - Principles of Construction Project Management</item>
+        <item>CON 3011 - Building Mechanical and Electrical Systems for CM</item>
+        <item>CON 3021 - Construction Estimating</item>
+        <item>CON 3061 - Construction Scheduling</item>
+        <item>CON 3071 - Construction Jobsite and Equipment Management</item>
+        <item>CON 3980 - Topics in Construction Management</item>
+        <item>CON 4021 - Construction Finance and Accounting</item>
+        <item>CON 4051 - Construction Project Management II</item>
+        <item>CON 4901 - Construction Management Capstone I</item>
+        <item>CON 4902 - Construction Management Capstone II</item>
+        <item>CON 4980 - Topics in Construction Management</item>
+        <item>CON 4999 - Construction Management Independent Study</item>
+        <item>CSE 3991 - Co-op Experience I</item>
+        <item>CSE 3992 - Co-op Experience II</item>
+        <item>CSE 4200 - Engineering Applications of MATLAB</item>
+        <item>CSE 4991 - Co-op Experience III</item>
+        <item>CSE 4992 - Co-op Experience IV</item>
+        <item>ELE 1000 - Introduction to Electrical Engineering</item>
+        <item>ELE 1601 - Introduction to Programming for EEs</item>
+        <item>ELE 1801 - Transfer Digital Logic and Embedded Systems</item>
+        <item>ELE 2001 - Electric Circuits I: Theory and Applications</item>
+        <item>ELE 2011 - Electric Circuits II: Theory and Applications</item>
+        <item>ELE 2051 - Circuit Theory for Mechanical Engineering</item>
+        <item>ELE 2610 - Embedded Systems</item>
+        <item>ELE 2801 - Bridge Digital Design and Procedural Programming</item>
+        <item>ELE 3101 - Electronics I</item>
+        <item>ELE 3111 - Electronics II</item>
+        <item>ELE 3141 - Transfer Electronics</item>
+        <item>ELE 3151 - Bridge Electronics II</item>
+        <item>ELE 3201 - Electromagnetics and Transmission Lines</item>
+        <item>ELE 3300 - Signals and Systems</item>
+        <item>ELE 3310 - Introduction to Probability and Random Processes</item>
+        <item>ELE 3320 - Digital Signal Processing</item>
+        <item>ELE 3401 - Electric Power and Machines</item>
+        <item>ELE 3510 - Digital Systems</item>
+        <item>ELE 3701 - Control Systems</item>
+        <item>ELE 3900 - Career and Professional Guidance</item>
+        <item>ELE 4142 - Modern Electronic Systems</item>
+        <item>ELE 4190 - THL Advanced Analog Design</item>
+        <item>ELE 4240 - Advanced Electromagnetics and Antenna Theory</item>
+        <item>ELE 4290 - THL Radio Frequencies</item>
+        <item>ELE 4291 - THL Microwaves</item>
+        <item>ELE 4300 - Principles of Communications</item>
+        <item>ELE 4320 - Applications of DSP</item>
+        <item>ELE 4390 - THL Communication Network</item>
+        <item>ELE 4403 - Specialty Electric Machines</item>
+        <item>ELE 4440 - Power Electronics</item>
+        <item>ELE 4447 - Power System Models and Analysis</item>
+        <item>ELE 4451 - Grid Stability</item>
+        <item>ELE 4480 - Electrical Power Systems Quality</item>
+        <item>ELE 4610 - Advanced Programming for EEs</item>
+        <item>ELE 4630 - Advanced Embedded Systems</item>
+        <item>ELE 4701 - Control Systems Applications</item>
+        <item>ELE 4901 - Electrical Engineering - Senior Design Project I</item>
+        <item>ELE 4902 - Electrical Engineering - Senior Design Project II</item>
+        <item>ELE 4940 - THL Bachelor Thesis</item>
+        <item>ELE 4980 - Topics in Electrical Engineering</item>
+        <item>ELE 4980T - Topics in Electrical Engineering: Quarter Analog Electronics II</item>
+        <item>ELE 4981 - Topics in Electrical Engineering with Laboratory</item>
+        <item>ELE 4999 - Electrical Engineering Independent Study</item>
+        <item>EAP 0100 - Intensive Grammar Application</item>
+        <item>EAP 0200 - Critical Reading and Listening</item>
+        <item>EAP 0980 - Topics in English for Academic Purposes</item>
+        <item>FNA 2002 - Drama and The Theater</item>
+        <item>FNA 2980 - Topics in Fine Arts</item>
+        <item>FNA 2999 - Fine Arts Independent Study</item>
+        <item>FNA 3001 - Creative Writing</item>
+        <item>FNA 3980 - Topics in Fine Arts</item>
+        <item>FNA 3999 - Fine Arts Independent Study</item>
+        <item>FNA 4010 - Film and Media Studies</item>
+        <item>FNA 4980 - Topics in Fine Arts</item>
+        <item>FNA 4999 - Fine Arts Independent Study</item>
+        <item>EGR 2961 - General AI Application Foundation</item>
+        <item>EGR 2963 - General AI Application Contexts</item>
+        <item>EGR 4801 - AI for Emerging Applications Practicum</item>
+        <item>GER 1001 - Elementary German</item>
+        <item>GER 2001 - Intermediate German</item>
+        <item>GER 2999 - German Independent Study</item>
+        <item>GER 3001 - Advanced German</item>
+        <item>GER 3980 - Topics in the German-Speaking World</item>
+        <item>GER 3999 - German Independent Study</item>
+        <item>GER 4980 - Topics in the German-Speaking World</item>
+        <item>GER 4999 - German Independent Study</item>
+        <item>HST 1013 - United States History I</item>
+        <item>HST 1014 - United States History II</item>
+        <item>HST 1015 - Latin American History I</item>
+        <item>HST 1016 - Latin American History II</item>
+        <item>HST 2011 - American Revolution</item>
+        <item>HST 2012 - Civil War and Reconstruction</item>
+        <item>HST 2014 - History of US World’s Fairs</item>
+        <item>HST 2015 - Topics in Twentieth Century American History</item>
+        <item>HST 2021 - Topics in Modern European History</item>
+        <item>HST 2022 - German History</item>
+        <item>HST 2031 - World War II</item>
+        <item>HST 2041 - Cuban History</item>
+        <item>HST 2053 - Music History</item>
+        <item>HST 2980 - Topics in History</item>
+        <item>HST 2999 - History Independent Study</item>
+        <item>HST 3980 - Topics in History</item>
+        <item>HST 3999 - History Independent Study</item>
+        <item>HST 4980 - Topics in History</item>
+        <item>HST 4999 - History Independent Study</item>
+        <item>HON 2011 - Honors Practicum</item>
+        <item>HON 2051 - Honors Seminar I</item>
+        <item>HON 2052 - Honors Seminar II</item>
+        <item>HON 2060 - Honors Travel Experience</item>
+        <item>HON 2980 - Honors Special Topics</item>
+        <item>HON 2999 - Honors Independent Study</item>
+        <item>HON 3060 - Honors Research/Entrepreneur Experience</item>
+        <item>HON 3980 - Honors Special Topics</item>
+        <item>HON 4060 - Honors Senior Reflection</item>
+        <item>HON 4999 - Honors Independent Study</item>
+        <item>HUM 0101 - Communicate Effectively</item>
+        <item>HUM 0102 - Collaborate Successfully</item>
+        <item>HUM 0103 - Demonstrate Ethical Understanding</item>
+        <item>HUM 0104 - Embrace Diversity</item>
+        <item>HUM 0105 - Think Critically</item>
+        <item>HUM 0106 - Exhibit Curiosity</item>
+        <item>HUM 1001 - THL Humanities I</item>
+        <item>HUM 2001 - THL Humanities II</item>
+        <item>IND 1000 - Introduction to Industrial Engineering</item>
+        <item>IND 2010 - Logic Development and Computer Programming for Engineers</item>
+        <item>IND 2030 - Applied Statistics for Industrial Engineers</item>
+        <item>IND 2700 - Engineering Economics</item>
+        <item>IND 3210 - Automation Technologies</item>
+        <item>IND 3400 - Quality Systems</item>
+        <item>IND 3410 - Design of Experiments and Data Analysis for Engineers</item>
+        <item>IND 3510 - Fundamentals of Enterprise Operations for Engineers</item>
+        <item>IND 3600 - Ergonomics and Work Methods</item>
+        <item>IND 3700 - Project Management for Systems Change</item>
+        <item>IND 3810 - Process Modelling and Optimization</item>
+        <item>IND 3820 - Stochastic Processes</item>
+        <item>IND 4110 - Research Methods</item>
+        <item>IND 4120 - Healthcare Systems Engineering</item>
+        <item>IND 4210 - Computer-Aided Manufacturing/CNC Machining/Additive Manufacturing</item>
+        <item>IND 4310 - Production Planning and Inventory Control</item>
+        <item>IND 4320 - Facilities Design</item>
+        <item>IND 4330 - Modern Manufacturing Processes</item>
+        <item>IND 4410 - Six Sigma for Engineers</item>
+        <item>IND 4430 - Lean Manufacturing Enterprise for Engineers</item>
+        <item>IND 4610 - Safety Systems Engineering</item>
+        <item>IND 4621 - Sociotechnical Systems Engineering</item>
+        <item>IND 4622 - Organization and Job Design</item>
+        <item>IND 4630 - Product Design and Development Processes</item>
+        <item>IND 4710 - Financial Engineering</item>
+        <item>IND 4720 - Supply Chain Engineering</item>
+        <item>IND 4830 - Process Simulation</item>
+        <item>IND 4840 - Advanced Simulation</item>
+        <item>IND 4901 - Industrial Engineering Senior Design Capstone I</item>
+        <item>IND 4902 - Industrial Engineering Senior Design Capstone II</item>
+        <item>IND 4980 - Topics in Industrial Engineering</item>
+        <item>IND 4999 - Industrial Engineering Independent Study</item>
+        <item>IDS 2020 - Career Development</item>
+        <item>IDS 3901 - Interdisciplinary Design</item>
+        <item>LIT 1010 - American Literature I</item>
+        <item>LIT 1020 - American Literature II</item>
+        <item>LIT 2001 - Science Fiction</item>
+        <item>LIT 2010 - Literary Genres</item>
+        <item>LIT 2020 - Contemporary Literature</item>
+        <item>LIT 2980 - Topics in Literature</item>
+        <item>LIT 2999 - Literature Independent Study</item>
+        <item>LIT 3001 - Topics in Global Literature</item>
+        <item>LIT 3980 - Topics in Literature</item>
+        <item>LIT 3999 - Literature Independent Study</item>
+        <item>LIT 4980 - Topics in Literature</item>
+        <item>LIT 4999 - Literature Independent Study</item>
+        <item>MTH 0105 - Think Critically</item>
+        <item>MTH 1030 - Quantitative Reasoning for Health Care Professionals</item>
+        <item>MTH 1050 - Finite Mathematics</item>
+        <item>MTH 1080 - Precalculus Mathematics</item>
+        <item>MTH 1080A - Precalculus Mathematics</item>
+        <item>MTH 1110 - Calculus I</item>
+        <item>MTH 1110A - Calculus I</item>
+        <item>MTH 1120 - Calculus II</item>
+        <item>MTH 1840 - Computer Applications in Actuarial Science</item>
+        <item>MTH 2130 - Calculus III</item>
+        <item>MTH 2140 - Differential Equations</item>
+        <item>MTH 2310 - Discrete Mathematics</item>
+        <item>MTH 2340 - Linear Algebra with Applications</item>
+        <item>MTH 2410 - Statistics for Actuarial Science</item>
+        <item>MTH 2430 - Statistical Methods for Health Care</item>
+        <item>MTH 2450 - Business Statistics and Analytics</item>
+        <item>MTH 2480 - Probability and Statistics</item>
+        <item>MTH 2610 - Probability for Actuarial Science I</item>
+        <item>MTH 2620 - Probability for Actuarial Science II</item>
+        <item>MTH 2680 - Introduction to Probability</item>
+        <item>MTH 2980T - Topics in Mathematics: Quarter Calculus III</item>
+        <item>MTH 2980U - Topics in Mathematics: Quarter Calculus III and IV</item>
+        <item>MTH 3340 - Abstract Algebra with Applications</item>
+        <item>MTH 3410 - Applied Regression Analysis</item>
+        <item>MTH 3999 - Mathematics Independent Study</item>
+        <item>MTH 4130 - Complex Analysis</item>
+        <item>MTH 4150 - Partial Differential Equations</item>
+        <item>MTH 4980 - Topics in Mathematics</item>
+        <item>MTH 4999 - Mathematics Independent Study</item>
+        <item>MEC 1602 - Introduction to Solid Modeling and Design</item>
+        <item>MEC 1900 - Introduction to Mechanical Engineering</item>
+        <item>MEC 1910 - Computer Applications in Engineering</item>
+        <item>MEC 2010 - Engineering Mechanics I: Statics</item>
+        <item>MEC 2020 - Engineering Mechanics II: Dynamics</item>
+        <item>MEC 2030 - Mechanics of Materials</item>
+        <item>MEC 2110 - Thermodynamics I</item>
+        <item>MEC 2501 - Statics and Mechanics of Materials</item>
+        <item>MEC 2981 - Topics in Mechanical Engineering with Laboratory</item>
+        <item>MEC 3000 - THL Modeling and Numerical Analysis Transfer</item>
+        <item>MEC 3040 - Computer-Aided Design of Machines</item>
+        <item>MEC 3060 - Design of Machine Components</item>
+        <item>MEC 3120 - Fluid Mechanics</item>
+        <item>MEC 3130 - Heat Transfer</item>
+        <item>MEC 3140 - Thermodynamics II</item>
+        <item>MEC 3210 - Material Science</item>
+        <item>MEC 3220 - Materials and Manufacturing Processes</item>
+        <item>MEC 3310 - Instrumentation and Measurements</item>
+        <item>MEC 3320 - Dynamic Systems</item>
+        <item>MEC 3991 - Co-op Experience I</item>
+        <item>MEC 3992 - Co-op Experience II</item>
+        <item>MEC 4060 - Finite Element Analysis</item>
+        <item>MEC 4160 - Computational Fluid Dynamics</item>
+        <item>MEC 4270 - Fatigue and Fracture in Mechanical Design</item>
+        <item>MEC 4310 - Automatic Control Systems</item>
+        <item>MEC 4350 - Mechanical System Simulation</item>
+        <item>MEC 4470 - Introduction to Robotics</item>
+        <item>MEC 4670 - Experimental Stress Analysis</item>
+        <item>MEC 4671 - Vibration Control</item>
+        <item>MEC 4672 - Applications in Finite Element Modeling</item>
+        <item>MEC 4673 - Advanced Machine Design</item>
+        <item>MEC 4674 - Medical Applications in Mechanical Engineering</item>
+        <item>MEC 4675 - Vehicle Dynamics</item>
+        <item>MEC 4676 - Composite Materials</item>
+        <item>MEC 4677 - Applied Numerical Methods</item>
+        <item>MEC 4678 - Data and Mechanical Engineering</item>
+        <item>MEC 4770 - Fluid Power Systems</item>
+        <item>MEC 4810 - Thermo-Fluid Systems Lab</item>
+        <item>MEC 4870 - HVAC Systems Design</item>
+        <item>MEC 4871 - Aerodynamics</item>
+        <item>MEC 4872 - Compressible Flow</item>
+        <item>MEC 4873 - Gas Turbines and Aircraft Engines</item>
+        <item>MEC 4874 - Renewable and Sustainable Energy Systems</item>
+        <item>MEC 4875 - Internal Combustion Engines</item>
+        <item>MEC 4901 - Mechanical Engineering Capstone Design I</item>
+        <item>MEC 4902 - Mechanical Engineering Capstone Design II</item>
+        <item>MEC 4950 - THL Bachelor’s Thesis</item>
+        <item>MEC 4980 - Topics in Mechanical Engineering</item>
+        <item>MEC 4991 - Co-op Experience III</item>
+        <item>MEC 4992 - Co-op Experience IV</item>
+        <item>MEC 4999 - Mechanical Engineering Independent Study</item>
+        <item>MUS 0100 - University Orchestra (not for credit)</item>
+        <item>MUS 0200 - Jazz Ensemble (not for credit)</item>
+        <item>MUS 0300 - Concert Band (not for credit)</item>
+        <item>MUS 0400 - Concert Choir (not for credit)</item>
+        <item>MUS 0500 - Pep Band (not for credit)</item>
+        <item>MUS 0600 - Jazz Combo</item>
+        <item>MUS 0700 - Electronic Orchestra</item>
+        <item>MUS 1100 - University Orchestra (for credit)</item>
+        <item>MUS 1200 - Jazz Ensemble (for credit)</item>
+        <item>MUS 1300 - Concert Band (for credit)</item>
+        <item>MUS 1400 - Concert Choir (for credit)</item>
+        <item>MUS 1500 - Pep Band (for credit)</item>
+        <item>NAV 1001 - Drill and Information Briefing</item>
+        <item>NAV 1009 - Introduction to Naval Science</item>
+        <item>NAV 1022 - Sea Power and Maritime Affairs</item>
+        <item>NAV 2151 - Navigation</item>
+        <item>NAV 2185 - Leadership and Management</item>
+        <item>NAV 3142 - Naval Ship Systems 1</item>
+        <item>NAV 3161 - Evolution of the Art of War</item>
+        <item>NAV 3162 - Naval Ship Systems 2</item>
+        <item>NAV 3191 - Fundamentals of Maneuver Warfare</item>
+        <item>NAV 3964 - Practicum in U.S. Marine Corps Leadership and Management</item>
+        <item>NAV 4152 - Naval Operations and Seamanship</item>
+        <item>NAV 4186 - Leadership and Core-Value-Based Decision-Making</item>
+        <item>NAV 4995 - Independent Study in Naval Sciences</item>
+        <item>NUR 1000 - Introduction to Professional Nursing Practice</item>
+        <item>NUR 2000 - Nutrition in Health and Illness Across the Life Span</item>
+        <item>NUR 2001 - Pathophysiology and Pharmacology I</item>
+        <item>NUR 2002 - Pathophysiology and Pharmacology II</item>
+        <item>NUR 2003 - Pathophysiology (ASD)</item>
+        <item>NUR 2004 - Pharmacology (ASD)</item>
+        <item>NUR 2010 - Health Assessment</item>
+        <item>NUR 2015 - Health Assessment and Foundations of Safe, Person-Centered Nursing Care (ASD)</item>
+        <item>NUR 2020 - Foundations of Safe, Person-Centered Nursing Care</item>
+        <item>NUR 2500 - Global Health Care and International Health Care Systems</item>
+        <item>NUR 3000 - Transcultural and Family Dynamics in Healthcare (PBEL)</item>
+        <item>NUR 3001 - Transcultural Dynamics in Healthcare (PBEL) (ASD)</item>
+        <item>NUR 3005 - Nursing Care of Older Adults</item>
+        <item>NUR 3006 - Gerontological Management of Care</item>
+        <item>NUR 3010 - Episodic Health Challenges</item>
+        <item>NUR 3011 - Acquisition of Psychomotor Skills and Integration of Clinical Reasoning I</item>
+        <item>NUR 3015 - Episodic and Restorative Health Care (ASD)</item>
+        <item>NUR 3016 - Acquisition of Psychomotor Skills and Integration of Clinical Reasoning (ASD)</item>
+        <item>NUR 3020 - Chronic Health Challenges</item>
+        <item>NUR 3021 - Acquisition of Psychomotor Skills and Integration of Clinical Reasoning II</item>
+        <item>NUR 3030 - Population Health (PBEL)</item>
+        <item>NUR 3100 - Principles of Electrocardiograph (ECG) Interpretation and Monitoring</item>
+        <item>NUR 3320 - Complementary and Integrative Health Therapies</item>
+        <item>NUR 3950 - Interprofessional Education (IPE)</item>
+        <item>NUR 4001 - Preparing for NCLEX Licensure Success</item>
+        <item>NUR 4010 - Supportive Care for End-of-Life, Mental Health, and Trauma-Informed Care</item>
+        <item>NUR 4015 - Chronic Health Challenges (ASD)</item>
+        <item>NUR 4020 - Complex High Acuity Health Challenges</item>
+        <item>NUR 4030 - Practice Synthesis: Preceptorship and Simulations</item>
+        <item>NUR 4901 - Nursing Research and Evidence-Based Practice (PBEL)</item>
+        <item>NUR 4902 - Nurses as Leaders in Advancing Health Care (PBEL)</item>
+        <item>NUR 4903 - Nursing Research and Evidence-Based Practice (Part I)</item>
+        <item>NUR 4904 - Nursing Research and Evidence-Based Practice (Part II)</item>
+        <item>NUR 4980 - Topics in Nursing</item>
+        <item>NUR 4990 - Instructional Review</item>
+        <item>NUR 4999 - Nursing Independent Study</item>
+        <item>PHL 2980 - Topics in Philosophy</item>
+        <item>PHL 2999 - Philosophy Independent Study</item>
+        <item>PHL 3101 - Ethics for Professional Managers and Engineers</item>
+        <item>PHL 3102 - Ethics of Digital Technologies and Artificial Intelligence</item>
+        <item>PHL 3103 - Bioethics</item>
+        <item>PHL 3104 - Eastern Philosophy</item>
+        <item>PHL 3201 - Introduction to Philosophy</item>
+        <item>PHL 3202 - Introduction to Logic</item>
+        <item>PHL 3203 - Epistemology</item>
+        <item>PHL 3204 - Metaphysics</item>
+        <item>PHL 3205 - Minds, Brains, and Computers</item>
+        <item>PHL 3206 - Social and Political Philosophy</item>
+        <item>PHL 3207 - Philosophy of Science</item>
+        <item>PHL 3208 - Philosophy of Art</item>
+        <item>PHL 3980 - Topics in Philosophy</item>
+        <item>PHL 3999 - Philosophy Independent Study</item>
+        <item>PHL 4980 - Topics in Philosophy</item>
+        <item>PHL 4999 - Philosophy Independent Study</item>
+        <item>PHY 1110 - Physics I - Mechanics and Thermodynamics</item>
+        <item>PHY 1110A - Physics I - Mechanics and Thermodynamics</item>
+        <item>PHY 1120 - Physics II - Electricity, Magnetism, and Optics</item>
+        <item>PHY 1980T - Topics in Physics: Waves, Relativity, Thermo Transition</item>
+        <item>PHY 2600 - Introduction to Optics and Photonics</item>
+        <item>PHY 3530 - Quantum and Modern Physics</item>
+        <item>PHY 3550 - Nuclear Physics</item>
+        <item>PHY 3600 - Lasers and Applications</item>
+        <item>PHY 3700 - Physics of Electronic Materials and Semiconductor Devices</item>
+        <item>PHY 3810 - Introduction to Biophysics</item>
+        <item>PHY 3910 - Astronomy and Astrophysics</item>
+        <item>PHY 4980 - Topics in Physics</item>
+        <item>PHY 4999 - Physics Independent Study</item>
+        <item>PSC 2010 - Foundations of Political Science</item>
+        <item>PSC 2011 - American Government</item>
+        <item>PSC 2015 - International Relations</item>
+        <item>PSC 2016 - Urban Studies</item>
+        <item>PSC 2980 - Topics in Political Science</item>
+        <item>PSC 2999 - Political Science Independent Study</item>
+        <item>PSC 3980 - Topics in Political Science</item>
+        <item>PSC 3999 - Political Science Independent Study</item>
+        <item>PSC 4980 - Topics in Political Science</item>
+        <item>PSC 4999 - Political Science Independent Study</item>
+        <item>PSY 1001 - Foundations of Psychology</item>
+        <item>PSY 2002 - Psychology of Design</item>
+        <item>PSY 2003 - Organizational Psychology</item>
+        <item>PSY 2005 - The Family: Psychological and Social Perspectives</item>
+        <item>PSY 2006 - Death, Dying, and Grief</item>
+        <item>PSY 2007 - Addictive and Compulsive Behavior</item>
+        <item>PSY 2010 - Understanding Human Language</item>
+        <item>PSY 2980 - Topics in Psychology</item>
+        <item>PSY 2999 - Psychology Independent Study</item>
+        <item>PSY 3001 - Cognitive Psychology</item>
+        <item>PSY 3002 - Psychological Disorders and Mental Health</item>
+        <item>PSY 3003 - Developmental Psychology</item>
+        <item>PSY 3004 - Social Psychology</item>
+        <item>PSY 3980 - Topics in Psychology</item>
+        <item>PSY 3999 - Psychology Independent Study</item>
+        <item>PSY 4980 - Topics in Psychology</item>
+        <item>PSY 4999 - Psychology Independent Study</item>
+        <item>RSC 0100 - Strategies for International Student Success</item>
+        <item>RSC 0101 - Foundations of Student Success</item>
+        <item>RSC 0102 - Academic Coaching and Support</item>
+        <item>RSC 0103 - Perspective, Potential, and Purpose</item>
+        <item>RSC 0104 - Mind, Mood, and Movement</item>
+        <item>RSC 1010 - First-Year Seminar I</item>
+        <item>RSC 1011 - First-Year Seminar II</item>
+        <item>RSC 2010 - Second-Year Seminar I</item>
+        <item>RSC 2011 - Second-Year Seminar II</item>
+        <item>RSC 3010 - Third-Year Seminar I</item>
+        <item>RSC 3011 - Third-Year Seminar II</item>
+        <item>RSC 4010 - Fourth-Year Seminar I</item>
+        <item>RSC 4011 - Fourth-Year Seminar II</item>
+        <item>SCI 0105 - Think Critically</item>
+        <item>SCI 1610 - Environmental Science</item>
+        <item>SCI 2000 - Sound and Light</item>
+        <item>SCI 2410 - Limnology: The Science of Inland Waters</item>
+        <item>SCI 3010 - Structure and Properties of Modern Materials</item>
+        <item>SCI 3610 - Science of Climate Change</item>
+        <item>SCI 3700 - Physical Geology</item>
+        <item>SCI 3750 - Nanoscience and Nanotechnology</item>
+        <item>SCI 4980 - Topics in Science</item>
+        <item>SSC 0101 - Communicate Effectively</item>
+        <item>SSC 0102 - Collaborate Successfully</item>
+        <item>SSC 0103 - Demonstrate Ethical Understanding</item>
+        <item>SSC 0104 - Embrace Diversity</item>
+        <item>SSC 0105 - Think Critically</item>
+        <item>SSC 0106 - Exhibit Curiosity</item>
+        <item>SOC 1001 - Foundations of Sociology</item>
+        <item>SOC 2980 - Topics in Sociology</item>
+        <item>SOC 2999 - Sociology Independent Study</item>
+        <item>SOC 3001 - Cybercrime: Human Perspectives</item>
+        <item>SOC 3980 - Topics in Sociology</item>
+        <item>SOC 3999 - Sociology Independent Study</item>
+        <item>SOC 4001 - Digital Society</item>
+        <item>SOC 4980 - Topics in Sociology</item>
+        <item>SOC 4999 - Sociology Independent Study</item>
+        <item>SWE 2410 - Design and Cloud Patterns</item>
+        <item>SWE 2511 - Web Applications</item>
+        <item>SWE 2710 - Software Tools and Process</item>
+        <item>SWE 2721 - Introduction to Software Verification</item>
+        <item>SWE 3411 - Software Requirements and Architecture</item>
+        <item>SWE 3710 - Software Development Laboratory I</item>
+        <item>SWE 3720 - Software Development Laboratory II</item>
+        <item>SWE 4211 - Real-time Systems</item>
+        <item>SWE 4411 - Game Development</item>
+        <item>SWE 4511 - DevSecOps</item>
+        <item>SWE 4540 - Network Security Tools and Practices</item>
+        <item>SWE 4901 - Software Engineering Capstone I</item>
+        <item>SWE 4902 - Software Engineering Capstone II</item>
+        <item>SWE 4980 - Topics in Software Engineering</item>
+        <item>SWE 4981 - Topics in Software Engineering with Lab</item>
+        <item>SWE 4999 - Software Engineering Independent Study</item>
+        <item>SPN 1001 - Elementary Spanish</item>
+        <item>SPN 2001 - Intermediate Spanish</item>
+        <item>SPN 2999 - Spanish Independent Study</item>
+        <item>SPN 3001 - Advanced Spanish</item>
+        <item>SPN 3980 - Topics in the Spanish-Speaking World</item>
+        <item>SPN 3999 - Spanish Independent Study</item>
+        <item>SPN 4980 - Topics in the Spanish-Speaking World</item>
+        <item>SPN 4999 - Spanish Independent Study</item>
+        <item>TCM 1010 - Argument and Persuasion</item>
+        <item>TCM 1020 - Writing for Digital Media</item>
+        <item>TCM 2010 - Interpersonal Communication</item>
+        <item>TCM 2020 - Communication Dynamics of High-Performance Teams</item>
+        <item>TCM 2050 - Health Care Communication</item>
+        <item>TCM 2060 - Communication Graphics for Professionals</item>
+        <item>TCM 2980 - Topics in Technical Communication</item>
+        <item>TCM 2999 - Technical Communication Independent Study</item>
+        <item>TCM 3010 - Digital Storytelling</item>
+        <item>TCM 3020 - Advanced Presentations</item>
+        <item>TCM 3030 - e-Learning Development</item>
+        <item>TCM 3110 - Project Communications</item>
+        <item>TCM 3210 - User Documentation</item>
+        <item>TCM 3801 - Technical Communication Internship</item>
+        <item>TCM 3980 - Topics in Technical Communication</item>
+        <item>TCM 3999 - Technical Communication Independent Study</item>
+        <item>TCM 4980 - Topics in Technical Communication</item>
+        <item>TCM 4999 - Technical Communication Independent Study</item>
+        <item>UGR 4970 - Undergraduate Research Experience</item>
+        <item>UGR 4971 - Undergraduate Research Thesis I</item>
+        <item>UGR 4972 - Undergraduate Research Thesis II</item>
+        <item>UXD 1001 - Human-Centered Design</item>
+        <item>UXD 1020 - Visual Design</item>
+        <item>UXD 1030 - Interface Design</item>
+        <item>UXD 1040 - Design Thinking</item>
+        <item>UXD 2010 - Inclusive Design</item>
+        <item>UXD 2020 - Interaction Design</item>
+        <item>UXD 2030 - Designing for Extended Reality</item>
+        <item>UXD 2040 - People + Automation</item>
+        <item>UXD 2050 - UX Writing</item>
+        <item>UXD 2961 - Human-centered AI</item>
+        <item>UXD 2963 - Intelligent User Interfaces</item>
+        <item>UXD 2980 - Topics in User Experience</item>
+        <item>UXD 2999 - User Experience Independent Study</item>
+        <item>UXD 3010 - UX Research</item>
+        <item>UXD 3020 - Design for Chat and Voice</item>
+        <item>UXD 3030 - Data Visualization</item>
+        <item>UXD 3040 - Agile Project Management</item>
+        <item>UXD 3050 - Search Engine Optimization</item>
+        <item>UXD 3060 - Professional Portfolio</item>
+        <item>UXD 3980 - Topics in User Experience</item>
+        <item>UXD 3999 - User Experience Independent Study</item>
+        <item>UXD 4020 - UX of Physical Products</item>
+        <item>UXD 4030 - UX Strategy</item>
+        <item>UXD 4040 - UX in Transportation</item>
+        <item>UXD 4060 - UX in Healthcare</item>
+        <item>UXD 4801 - UX Internship</item>
+        <item>UXD 4901 - UX Senior Design</item>
+        <item>UXD 4980 - Topics in User Experience</item>
+        <item>UXD 4999 - User Experience Independent Study</item>
+    </string-array>
+</resources>

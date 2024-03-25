@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "967053903732",
+    "project_id": "msoe-gpa-app",
+    "storage_bucket": "msoe-gpa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967053903732:android:34769571a6698bd09b4e21",
+        "android_client_info": {
+          "package_name": "edu.msoe.arneyhLab2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTXab7q3qG3r3Q_t9sJERyhj92m_hcLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967053903732:android:0e1c0bbd39689a779b4e21",
+        "android_client_info": {
+          "package_name": "edu.msoe.lab2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTXab7q3qG3r3Q_t9sJERyhj92m_hcLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967053903732:android:0431718d5aeaf7449b4e21",
+        "android_client_info": {
+          "package_name": "edu.msoe.lab22"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTXab7q3qG3r3Q_t9sJERyhj92m_hcLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

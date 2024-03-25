@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/transcriptFragment">
+
+    <fragment
+        android:id="@+id/transcriptFragment"
+        android:name="edu.msoe.demastri.lab5transcriptmanager.TranscriptFragment"
+        tools:layout="@layout/fragment_transcript_list"
+        android:label="TranscriptFragment" >
+        <action
+            android:id="@+id/show_class_detail"
+            app:destination="@id/classDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classDetailFragment"
+        android:name="edu.msoe.demastri.lab5transcriptmanager.ClassDetailFragment"
+        tools:layout="@layout/fragment_class_detail"
+        android:label="ClassDetailFragment" >
+        <argument
+            android:name="classID"
+            app:argType="java.util.UUID" />
+        <action
+            android:id="@+id/select_date"
+            app:destination="@id/datePickerFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/datePickerFragment"
+        android:name="edu.msoe.demastri.lab5transcriptmanager.DatePickerFragment"
+        android:label="DatePickerFragment" >
+        <argument
+            android:name="startDate"
+            app:argType="java.util.Date" />
+    </dialog>
+</navigation>

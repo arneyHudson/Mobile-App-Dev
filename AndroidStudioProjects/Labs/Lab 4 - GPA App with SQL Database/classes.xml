@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="known_courSWEs_array">
+        <item>CSC 1011 - description for CSC 1101 - 4</item>
+        <item>CSC 1021 - description for CSC 1021 - 3</item>
+        <item>CSC 2852 - description for CSC 2852 - 4</item>
+        <item>SWE 380 - description for SWE 380 - 4</item>
+        <item>SWE 2040 - description for SWE 2040 - 3>/item>
+        <item>SWE 2800 - description for SWE 2800 - 4</item>
+        <item>SWE 2811 - description for SWE 2811 - 4</item>
+        <item>SWE 2832 - description for SWE 2832 - 4</item>
+        <item>SWE 2840 - description for SWE 2840 - 4</item>
+        <item>SWE 3010 - description for SWE 3010 - 3</item>
+        <item>SWE 3020 - description for SWE 3020 - 4</item>
+        <item>SWE 3030 - description for SWE 3030 - 4</item>
+        <item>SWE 3191 - description for SWE 3191 - 4</item>
+        <item>SWE 3192 - description for SWE 3192 - 4</item>
+        <item>SWE 3193 - description for SWE 3193 - 3</item>
+        <item>SWE 3250 - description for SWE 3250 - 4</item>
+        <item>SWE 3800 - description for SWE 3800 - 4</item>
+        <item>SWE 3810 - description for SWE 3810 - 4</item>
+        <item>SWE 3821 - description for SWE 3821 - 3</item>
+        <item>SWE 3830 - description for SWE 3830 - 4</item>
+        <item>SWE 3910 - description for SWE 3910 - 3</item>
+        <item>SWE 4910 - description for SWE 4910 - 3</item>
+        <item>SWE 4910I - description for SWE 4910I - 4</item>
+        <item>SWE 4930 - description for SWE 4930 - 4</item>
+        <item>SWE 4940 - description for SWE 4940 - 4</item>
+        <item>SWE 499 - description for SWE 499 - 3</item>
+        <item>SWE 498 - description for SWE 498 - 3</item>
+        <item>SWE 400 - description for SWE 400 - 3</item>
+        <item>SWE 401 - description for SWE 401 - 3</item>
+        <item>SWE 402 - description for SWE 402 - 4</item>
+        <item>CSC 386 - description for CSC 386 - 4</item>
+        <item>CSC 421 - description for CSC 421 - 4</item>
+        <item>CSC 493 - description for CSC 493 - 3</item>
+        <item>CSC 498 - description for CSC 498 - 3</item>
+        <item>CSC 499 - description for CSC 499 - 3</item>
+        <item>CSC 2510 - description for CSC 2510 - 4</item>
+        <item>CSC 2550 - description for CSC 2550 - 4</item>
+        <item>CSC 2710 - description for CSC 2710 - 3</item>
+        <item>CSC 2711 - description for CSC 2711 - 3</item>
+        <item>CSC 2910 - description for CSC 2910 - 3</item>
+        <item>CSC 2911 - description for CSC 2911 - 3</item>
+        <item>CSC 3210 - description for CSC 3210 - 4</item>
+        <item>CSC 3840 - description for CSC 3840 - 4</item>
+        <item>CSC 3841 - description for CSC 3841 - 3</item>
+        <item>CSC 3844 - description for CSC 3844 - 3</item>
+        <item>CSC 3851 - description for CSC 3851 - 4</item>
+        <item>CSC 3860 - description for CSC 3860 - 4</item>
+        <item>CSC 4230 - description for CSC 4230 - 4</item>
+        <item>CSC 4830 - description for CSC 4830 - 3</item>
+        <item>CSC 4850 - description for CSC 4850 - 4</item>
+        <item>CSC 4860 - description for CSC 4860 - 4</item>
+        <item>CSC 4881 - description for CSC 4881 - 3</item>
+        <item>CSC 4920 - description for CSC 4920 - 3</item>
+        <item>CSC 5980 - description for CSC 5980 - 4</item>
+    </string-array>
+</resources>
